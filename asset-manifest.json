@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/travel/static/css/main.45d48af5.chunk.css",
+    "main.js": "/travel/static/js/main.fbaa7516.chunk.js",
+    "main.js.map": "/travel/static/js/main.fbaa7516.chunk.js.map",
+    "runtime~main.js": "/travel/static/js/runtime~main.11399f7e.js",
+    "runtime~main.js.map": "/travel/static/js/runtime~main.11399f7e.js.map",
+    "static/js/2.048e779e.chunk.js": "/travel/static/js/2.048e779e.chunk.js",
+    "static/js/2.048e779e.chunk.js.map": "/travel/static/js/2.048e779e.chunk.js.map",
+    "index.html": "/travel/index.html",
+    "precache-manifest.5c4da8fdab391416949abe0a3820e808.js": "/travel/precache-manifest.5c4da8fdab391416949abe0a3820e808.js",
+    "service-worker.js": "/travel/service-worker.js",
+    "static/css/main.45d48af5.chunk.css.map": "/travel/static/css/main.45d48af5.chunk.css.map",
+    "static/media/iconTrip.png": "/travel/static/media/iconTrip.06b6bb10.png",
+    "static/media/logo.svg": "/travel/static/media/logo.5d5d9eef.svg"
+  }
+}
