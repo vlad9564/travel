@@ -11,3 +11,11 @@
     display: table;
     clear: both;
   }
+  .inputIcon {
+    background: #fafafa;
+    color: #0a6ed1;
+    cursor: pointer;
+}
+.inputIcon:hover{
+    background: rgba(224,224,224,0.5)
+}
