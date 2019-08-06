@@ -15,6 +15,7 @@ import TimeLine from './timeline/TimeLine'
 import Maps from "./maps/Maps";
 import About from './about/About'
 import Home from './home/Home';
+import PlaceToVisit from './placeToVisit/placeToVisit';
 
 
 class App extends React.Component {
@@ -48,6 +49,12 @@ class App extends React.Component {
 
                 case "idHome":
                     this.setState({ Page: <Home /> });
+                    break;
+
+                case "idToVisit":
+                    this.setState({ Page: <PlaceToVisit /> });
+                    break;
+
                 default:
                     break;
             }
@@ -64,6 +71,7 @@ class App extends React.Component {
                             <ui5-li id="idHome" icon="sap-icon://home" selected description="Home" ></ui5-li>
                             <ui5-li id="idLastTrips" icon="sap-icon://flight" description="Last trips"  ></ui5-li>
                             <ui5-li id="idMaps" icon="sap-icon://choropleth-chart" description="Maps"></ui5-li>
+                            <ui5-li id="idToVisit" icon="sap-icon://map" description="Place to visit"></ui5-li>
                             <ui5-li id="idAbout" icon="sap-icon://message-information" description="About"></ui5-li>
                         </ui5-list>
 
